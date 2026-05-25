@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.roocky.effortlessbaritone.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "effortless_baritone.refmap.json",
+  "mixins": [
+    "BuildPacketInterceptorMixin",
+    "EffortlessNetworkRegistrationMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
