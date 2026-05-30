@@ -1,0 +1,83 @@
+Summary for /home/roocky/.local/share/PrismLauncher/instances/All of Create - Aeronautics/minecraft/mods/baritone-api-neoforge-1.11.2.jar
+Decompiled with CFR 0.152
+
+
+baritone.ah
+----------------------------
+
+<init>(baritone.a java.util.List java.lang.String java.lang.String )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+baritone.ai
+----------------------------
+
+a(baritone.a )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+baritone.api.command.helpers.Paginator
+----------------------------
+
+display(java.util.function.Function<E, net.minecraft.network.chat.Component> java.lang.String )
+  Unable to fully structure code
+
+
+baritone.bk
+----------------------------
+
+<clinit>()
+  Exception : java.lang.UnsupportedOperationException
+
+
+baritone.db
+----------------------------
+
+a(baritone.ca int int int int int )
+  Unable to fully structure code
+
+
+baritone.dl
+----------------------------
+
+a()
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+baritone.dr
+----------------------------
+
+onTick(boolean boolean )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+baritone.en
+----------------------------
+
+a(baritone.api.utils.BetterBlockPos )
+  Ignored method signature, as it can't be verified against descriptor
+a(baritone.api.utils.BetterBlockPos baritone.api.utils.BetterBlockPos java.util.function.UnaryOperator )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+baritone.ep
+----------------------------
+
+a(baritone.api.utils.BetterBlockPos baritone.api.utils.BetterBlockPos )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+baritone.z
+----------------------------
+
+<init>(baritone.bt java.util.List )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+dev.babbaj.pathfinder.xz.bd
+----------------------------
+
+a(byte[] int int )
+  Unable to fully structure code

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Class-Path: common.jar api.jar jsr305-3.0.2.jar toml-3.6.7.jar json-3.6.
+ 7.jar core-3.6.7.jar
+Fabric-Jar-Type: classes
+Fabric-Loom-Mixin-Remap-Type: mixin
+Fabric-Gradle-Version: 8.11
+Fabric-Loom-Version: 1.9.2
+Fabric-Mixin-Compile-Extensions-Version: 0.6.0
+Fabric-Minecraft-Version: 1.21.1
+Fabric-Tiny-Remapper-Version: 0.10.4
+Fabric-Loader-Version: 0.16.10
+Fabric-Mixin-Version: 0.15.4+mixin.0.8.7
+Fabric-Mixin-Group: net.fabricmc
+Fabric-Mapping-Namespace: intermediary
+Specification-Title: effortless
+Specification-Vendor: Huskcasaca
+Specification-Version: 1
+Implementation-Title: mc-1-21-1
+Implementation-Version: 3.2.0
+Implementation-Vendor: Huskcasaca
+Implementation-Timestamp: 2025-02-04T15:47:44+0000
+

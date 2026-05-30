@@ -1,0 +1,3 @@
+dev.huskuraft.effortless.fabric.events.FabricClientEventRegistry
+dev.huskuraft.effortless.forge.events.ForgeClientEventRegistry
+dev.huskuraft.effortless.neoforge.events.NeoForgeClientEventRegistry

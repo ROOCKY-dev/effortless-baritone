@@ -1,0 +1,4 @@
+dev.huskuraft.effortless.fabric.platform.FabricPlatform
+dev.huskuraft.effortless.quilt.platform.QuiltPlatform
+dev.huskuraft.effortless.forge.platform.ForgePlatform
+dev.huskuraft.effortless.neoforge.platform.NeoForgePlatform

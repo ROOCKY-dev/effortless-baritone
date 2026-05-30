@@ -1,0 +1,56 @@
+{
+  "mappings": {
+    "dev/huskuraft/effortless/fabric/mixin/GameRendererMixin": {
+      "reloadShaders": "Lnet/minecraft/class_757;method_34538(Lnet/minecraft/class_5912;)V"
+    },
+    "dev/huskuraft/effortless/fabric/mixin/GuiMixin": {
+      "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+    },
+    "dev/huskuraft/effortless/fabric/mixin/KeyboardMixin": {
+      "keyPress": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+    },
+    "dev/huskuraft/effortless/fabric/mixin/MinecraftMixin": {
+      "Lnet/minecraft/client/player/LocalPlayer;getAbilities()Lnet/minecraft/world/entity/player/Abilities;": "Lnet/minecraft/class_746;method_31549()Lnet/minecraft/class_1656;",
+      "Lnet/minecraft/client/player/LocalPlayer;getItemInHand(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_746;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+      "Lnet/minecraft/world/level/block/state/BlockState;isAir()Z": "Lnet/minecraft/class_2680;method_26215()Z",
+      "Lnet/minecraft/world/phys/HitResult;getType()Lnet/minecraft/world/phys/HitResult$Type;": "Lnet/minecraft/class_239;method_17783()Lnet/minecraft/class_239$class_240;",
+      "continueAttack": "Lnet/minecraft/class_310;method_1590(Z)V",
+      "pickBlock": "Lnet/minecraft/class_310;method_1511()V",
+      "startAttack": "Lnet/minecraft/class_310;method_1536()Z",
+      "startUseItem": "Lnet/minecraft/class_310;method_1583()V"
+    },
+    "dev/huskuraft/effortless/fabric/mixin/PlayerListMixin": {
+      "placeNewPlayer": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;Lnet/minecraft/class_8792;)V",
+      "remove": "Lnet/minecraft/class_3324;method_14611(Lnet/minecraft/class_3222;)V",
+      "respawn": "Lnet/minecraft/class_3324;method_14556(Lnet/minecraft/class_3222;ZLnet/minecraft/class_1297$class_5529;)Lnet/minecraft/class_3222;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/huskuraft/effortless/fabric/mixin/GameRendererMixin": {
+        "reloadShaders": "Lnet/minecraft/class_757;method_34538(Lnet/minecraft/class_5912;)V"
+      },
+      "dev/huskuraft/effortless/fabric/mixin/GuiMixin": {
+        "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+      },
+      "dev/huskuraft/effortless/fabric/mixin/KeyboardMixin": {
+        "keyPress": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+      },
+      "dev/huskuraft/effortless/fabric/mixin/MinecraftMixin": {
+        "Lnet/minecraft/client/player/LocalPlayer;getAbilities()Lnet/minecraft/world/entity/player/Abilities;": "Lnet/minecraft/class_746;method_31549()Lnet/minecraft/class_1656;",
+        "Lnet/minecraft/client/player/LocalPlayer;getItemInHand(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_746;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+        "Lnet/minecraft/world/level/block/state/BlockState;isAir()Z": "Lnet/minecraft/class_2680;method_26215()Z",
+        "Lnet/minecraft/world/phys/HitResult;getType()Lnet/minecraft/world/phys/HitResult$Type;": "Lnet/minecraft/class_239;method_17783()Lnet/minecraft/class_239$class_240;",
+        "continueAttack": "Lnet/minecraft/class_310;method_1590(Z)V",
+        "pickBlock": "Lnet/minecraft/class_310;method_1511()V",
+        "startAttack": "Lnet/minecraft/class_310;method_1536()Z",
+        "startUseItem": "Lnet/minecraft/class_310;method_1583()V"
+      },
+      "dev/huskuraft/effortless/fabric/mixin/PlayerListMixin": {
+        "placeNewPlayer": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;Lnet/minecraft/class_8792;)V",
+        "remove": "Lnet/minecraft/class_3324;method_14611(Lnet/minecraft/class_3222;)V",
+        "respawn": "Lnet/minecraft/class_3324;method_14556(Lnet/minecraft/class_3222;ZLnet/minecraft/class_1297$class_5529;)Lnet/minecraft/class_3222;"
+      }
+    }
+  }
+}

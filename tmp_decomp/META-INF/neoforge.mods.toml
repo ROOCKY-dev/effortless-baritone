@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[0,)"
+license="LGPLv3"
+issueTrackerURL="https://github.com/huskcasaca/effortless/issues"
+
+[[mods]]
+modId="effortless"
+version="3.2.0"
+displayName="Effortless Structure"
+updateJSONURL=""
+displayURL="https://modrinth.com/mod/effortless"
+logoFile="assets/effortless/icon.png"
+credits=""
+authors="Huskcasaca"
+displayTest="MATCH_VERSION"
+description='''It just saves your time.'''
+
+[[dependencies.effortless]]
+modId="neoforge"
+type="required"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.effortless]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[accessTransformers]]
+file="META-INF/neoforge.accesstransformer.cfg"

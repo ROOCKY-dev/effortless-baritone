@@ -1,0 +1,3 @@
+dev.huskuraft.effortless.fabric.platform.MinecraftClientContentFactory
+dev.huskuraft.effortless.forge.platform.MinecraftClientContentFactory
+dev.huskuraft.effortless.neoforge.platform.MinecraftClientContentFactory

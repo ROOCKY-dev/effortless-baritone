@@ -1,0 +1,53 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="effortless_baritone"
+version="1.0.0"
+displayName="Effortless Baritone"
+authors="Roocky (and community)"
+description='''
+Effortless Baritone is a client-side bridge mod that seamlessly integrates the powerful building tools of Effortless Building with the autonomous pathfinding and construction capabilities of Baritone. 
+
+With this mod, any structure you sketch out using Effortless Building can be automatically constructed by Baritone, complete with intelligent tool switching, block substitution, and batch task management.
+
+Features:
+- **Seamless Integration**: Use Effortless Building tools to define what needs to be built or broken.
+- **Task Queue**: Manages multiple build/break tasks with unique IDs.
+- **Batch Processing**: Merge tasks to optimize Baritone's pathfinding and layer-by-layer building.
+- **Fuzzy Matching**: Smart tag-based block substitution (e.g., placing Dirt when Grass is requested, ignoring snowy/waterlogged states).
+- **Silk Touch Priority**: Automatically preserves block states when breaking lossy blocks like Bookshelves or Ores.
+- **SafeStop**: Automatically halts Baritone operations if the player dies to prevent unpredictable behavior upon respawn.
+'''
+
+[[mixins]]
+config="effortless_baritone.mixins.json"
+
+[[dependencies.effortless_baritone]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.effortless_baritone]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21, 1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.effortless_baritone]]
+    modId="baritoe"
+    type="required"
+    versionRange="[1.11, 2.0)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.effortless_baritone]]
+    modId="effortless"
+    type="required"
+    versionRange="[3.2, 4.0)"
+    ordering="NONE"
+    side="CLIENT"

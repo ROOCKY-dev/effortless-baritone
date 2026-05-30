@@ -1,0 +1,3 @@
+dev.huskuraft.effortless.fabric.renderer.MinecraftRenderStateFactory
+dev.huskuraft.effortless.forge.renderer.MinecraftRenderStateFactory
+dev.huskuraft.effortless.neoforge.renderer.MinecraftRenderStateFactory

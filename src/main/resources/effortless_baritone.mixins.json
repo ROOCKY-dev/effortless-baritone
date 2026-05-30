@@ -6,7 +6,9 @@
   "refmap": "effortless_baritone.refmap.json",
   "mixins": [
     "BuildPacketInterceptorMixin",
-    "EffortlessNetworkRegistrationMixin"
+    "EffortlessNetworkRegistrationMixin",
+    "EffortlessClientStructureBuilderMixin",
+    "EffortlessClientSessionManagerMixin"
   ],
   "client": [
   ],

@@ -16,7 +16,7 @@ public class BuildPacketInterceptorMixin {
     private void interceptBuildPacket(Packet<?> packet, Player player, CallbackInfo ci) {
         if (packet instanceof PlayerBuildPacket) {
             PlayerBuildPacket buildPacket = (PlayerBuildPacket) packet;
-            EffortlessBaritoneMod.queueBuildTask(buildPacket.context());
+            EffortlessBaritoneMod.onBuildIntercepted(buildPacket.context());
             ci.cancel();
         }
     }
